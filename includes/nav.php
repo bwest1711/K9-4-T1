@@ -7,3 +7,4 @@
         <li><a href="#">Contact</a></li>
     </ul>
 </nav>
+<script type="text/javascript" src="/js/nav.js"></script>
