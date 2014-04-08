@@ -18,8 +18,6 @@
             <a href="" title="Kelsey"><img height="200" src="images/donate/kelsey.png" alt="Kelsey" title="Kelsey" /></a>
             <a href="" title="Patricia"><img height="200" src="images/donate/patricia.png" alt="Patricia" title="Patricia" /></a>
             <a href="" title="Sara"><img height="200" src="images/donate/sara.png" alt="Sara" title="Sara" /></a>
-            
-            
         </div>
     </body>
 </html>
