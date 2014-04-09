@@ -1,7 +1,6 @@
 nav {
     background: #4c4c4c; /* Old browsers */
     background: -moz-linear-gradient(#333, #000, #333);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
     box-shadow: 0px 0px 10px #000;
     width: 66%;
     border-radius: 15px;
@@ -28,6 +27,7 @@ nav ul li a {
     font-size: 2em;
 }
 
-.hover{
-    background: rgba(0,0,0, .5);
+.nav-hover{
+    background: -moz-radial-gradient(rgba(255,255,255,.3), rgba(255,255,255,0) );
+    border-radius:35px;
 }
