@@ -7,23 +7,23 @@ require_once 'class.smtp.php';
 
 /* CONFIGURATION */
 $crendentials = array(
-    'email'     => 'XXXXXXXX@gmail.com',    //Your GMail adress
-    'password'  => 'XXXXXXXX'               //Your GMail password
-    );
+    'email'     => 'bwest1711@gmail.com',    //Your GMail adress
+    'password'  => 'brando93'               //Your GMail password
+);
 
 /* SPECIFIC TO GMAIL SMTP */
 $smtp = array(
-
-'host' => 'smtp.gmail.com',
-'port' => 587,
-'username' => $crendentials['email'],
-'password' => $crendentials['password'],
-'secure' => 'tls' //SSL or TLS
-
+    
+    'host' => 'smtp.gmail.com',
+    'port' => 587,
+    'username' => $crendentials['email'],
+    'password' => $crendentials['password'],
+    'secure' => 'tls' //SSL or TLS
+    
 );
 
 /* TO, SUBJECT, CONTENT */
-$to         = ''; //The 'To' field
+$to         = 'bwest1711@gmail.com'; //The 'To' field
 $subject    = 'This is a test email sent with PHPMailer';
 $content    = 'This is the HTML message body <b>in bold!</b>';
 
@@ -57,3 +57,4 @@ if(!$mailer->send()) {
 } else {
     echo 'Message sent !';
 }
+?>
